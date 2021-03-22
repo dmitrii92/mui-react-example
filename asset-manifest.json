@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mui-react-example/static/css/main.ae15247a.chunk.css",
+    "main.js": "/mui-react-example/static/js/main.973a10c4.chunk.js",
+    "main.js.map": "/mui-react-example/static/js/main.973a10c4.chunk.js.map",
+    "runtime-main.js": "/mui-react-example/static/js/runtime-main.daa37d28.js",
+    "runtime-main.js.map": "/mui-react-example/static/js/runtime-main.daa37d28.js.map",
+    "static/js/2.a9550291.chunk.js": "/mui-react-example/static/js/2.a9550291.chunk.js",
+    "static/js/2.a9550291.chunk.js.map": "/mui-react-example/static/js/2.a9550291.chunk.js.map",
+    "static/js/3.45cf466a.chunk.js": "/mui-react-example/static/js/3.45cf466a.chunk.js",
+    "static/js/3.45cf466a.chunk.js.map": "/mui-react-example/static/js/3.45cf466a.chunk.js.map",
+    "index.html": "/mui-react-example/index.html",
+    "static/css/main.ae15247a.chunk.css.map": "/mui-react-example/static/css/main.ae15247a.chunk.css.map",
+    "static/js/2.a9550291.chunk.js.LICENSE.txt": "/mui-react-example/static/js/2.a9550291.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daa37d28.js",
+    "static/js/2.a9550291.chunk.js",
+    "static/css/main.ae15247a.chunk.css",
+    "static/js/main.973a10c4.chunk.js"
+  ]
+}
