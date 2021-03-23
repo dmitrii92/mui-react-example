@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     padding: "25px",
   },
+  tabs: {
+    marginBottom: "25px",
+  }
 }));
 
 const ProjectsPage = () => {
@@ -25,7 +28,7 @@ const ProjectsPage = () => {
     <>
       <div className={classes.root}>
         <Typography variant="h3" component="h3" className={classes.header}>
-          Проекты
+          ПРОЕКТЫ
         </Typography>
         <Tabs
           value={value}
@@ -35,6 +38,7 @@ const ProjectsPage = () => {
             setValue(newValue);
           }}
           aria-label="disabled tabs example"
+          className={classes.tabs}
         >
           <Tab
             label="Список проектов"
