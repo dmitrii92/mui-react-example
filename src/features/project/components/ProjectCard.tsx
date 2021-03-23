@@ -22,12 +22,12 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const ViewProject = (props: Project) => {
+const ProjectCard = (props: Project) => {
   const classes = useStyles();
 
   return (
     <Card className={classes.card}>
-      <CardMedia image="/static/images/cat.jpg" title="project_card" className={classes.media} />
+      <CardMedia image="static/images/cat.jpg" title="project_card" className={classes.media} />
       <CardContent>
         <Typography variant="h5" component="h5">
           {props.name}
@@ -46,4 +46,4 @@ const ViewProject = (props: Project) => {
   );
 };
 
-export default ViewProject;
+export default ProjectCard;

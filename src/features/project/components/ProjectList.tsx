@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import { useDispatch, useSelector } from "react-redux";
 import Button from "../../../common/components/Button";
 import { makeStyles } from "@material-ui/core/styles";
-import ViewProject from "./ViewProject";
+import ProjectCard from "./ProjectCard";
 import AddProjectModal from "./AddProjectModal";
 import { addProject, selectProjects } from "../state/projectSlice";
 
@@ -58,7 +58,7 @@ const ProjectList = () => {
       </div>
       <div className={classes.projects}>
         {projects.map((project) => {
-          return <ViewProject key={project.name} {...project} />;
+          return <ProjectCard key={project.name} {...project} />;
         })}
       </div>
       <AddProjectModal onClose={handleClose} isOpen={showModal} onSubmit={submitNewProject} />
