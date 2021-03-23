@@ -39,7 +39,7 @@ const ProjectsPage = () => {
           <Tab
             label="Список проектов"
             onClick={() => {
-              history.push(`${routes.projects.projects}`);
+              history.push(`${routes.projects.list}`);
             }}
           />
           <Tab
@@ -50,7 +50,7 @@ const ProjectsPage = () => {
           />
         </Tabs>
         <Switch>
-          <Route exact path={routes.projects.projects} component={ProjectList} />
+          <Route exact path={routes.projects.list} component={ProjectList} />
         </Switch>
       </div>
     </>

@@ -8,7 +8,7 @@ import { routes } from "./common/routes";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
       <Grid container direction="row" style={{ height: "100%" }}>
         <Grid item xs={3} xl={3} lg={3}>
           <SideMenu />
@@ -16,7 +16,10 @@ function App() {
         <Grid item xs={9} xl={9}>
           <TopMenu />
           <Switch>
-            <Route path={routes.projects.projects} component={ProjectsPage} />
+            <Route path={routes.calendar} />
+            <Route path={routes.tasks} />
+            <Route path={routes.settings} />
+            <Route path={routes.projects.list} component={ProjectsPage} />
           </Switch>
         </Grid>
       </Grid>

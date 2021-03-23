@@ -1,7 +1,7 @@
 export const routes = {
   projects: {
-    projects: "/",
-    roadmaps: "/roadmaps",
+    list: "/",
+    roadmaps: "/projects/roadmaps",
   },
   calendar: "/calendar",
   tasks: "/tasks",

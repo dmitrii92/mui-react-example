@@ -44,7 +44,7 @@ const ProjectList = () => {
     <>
       <div className={classes.toolbar}>
         <Typography variant="h5" component="h5">
-          Список проектов
+          СПИСОК ПРОЕКТОВ
         </Typography>
         <Button
           variant="contained"

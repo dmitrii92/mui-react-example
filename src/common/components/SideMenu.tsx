@@ -67,7 +67,7 @@ const SideMenu = () => {
           button
           className={classes.listItem}
           onClick={() => {
-            history.push(`${routes.projects.projects}`);
+            history.push(`${routes.projects.list}`);
           }}
         >
           <ListItemIcon className={classes.listItemIcon}>
