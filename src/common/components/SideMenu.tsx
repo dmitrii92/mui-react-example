@@ -39,6 +39,9 @@ const useStyles = makeStyles((theme) => ({
       },
     },
   },
+  listItemIcon: {
+    color: "white",
+  },
 }));
 
 const SideMenu = () => {
@@ -55,7 +58,7 @@ const SideMenu = () => {
             history.push(`${routes.tasks}`);
           }}
         >
-          <ListItemIcon>
+          <ListItemIcon className={classes.listItemIcon}>
             <SubscriptionsOutlinedIcon />
           </ListItemIcon>
           <ListItemText primary="Задачи и работы" />
@@ -67,7 +70,7 @@ const SideMenu = () => {
             history.push(`${routes.projects.projects}`);
           }}
         >
-          <ListItemIcon>
+          <ListItemIcon className={classes.listItemIcon}>
             <PermIdentityOutlinedIcon />
           </ListItemIcon>
           <ListItemText primary="Проекты" />
@@ -79,7 +82,7 @@ const SideMenu = () => {
             history.push(`${routes.calendar}`);
           }}
         >
-          <ListItemIcon>
+          <ListItemIcon className={classes.listItemIcon}>
             <EventAvailableOutlinedIcon />
           </ListItemIcon>
           <ListItemText primary="Календарь" />
@@ -91,7 +94,7 @@ const SideMenu = () => {
             history.push(`${routes.settings}`);
           }}
         >
-          <ListItemIcon>
+          <ListItemIcon className={classes.listItemIcon}>
             <SettingsOutlinedIcon />
           </ListItemIcon>
           <ListItemText primary="Возможности" />
